@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>H SCHOOL - Horror School Game</title>
+
+    <meta name="description"
+          content="H SCHOOL is a 2D horror school game for Android. Download H SCHOOL APK.">
+
+    <meta name="robots" content="index, follow">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+
+            background:
+                radial-gradient(
+                    circle at 50% 25%,
+                    #3b0000 0%,
+                    #160000 35%,
+                    #050505 75%
+                );
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            padding: 24px;
+        }
+
+        .card {
+            width: min(760px, 100%);
+
+            text-align: center;
+
+            padding: 42px 24px;
+
+            border: 1px solid #5f1515;
+            border-radius: 20px;
+
+            background: rgba(8, 8, 8, 0.92);
+
+            box-shadow:
+                0 0 45px rgba(120, 0, 0, 0.35);
+        }
+
+        .logo {
+            font-size: clamp(46px, 12vw, 92px);
+
+            font-weight: 900;
+
+            letter-spacing: 5px;
+
+            margin: 0;
+
+            text-shadow:
+                0 0 18px #900,
+                0 0 38px #400;
+        }
+
+        .tagline {
+            color: #ddd;
+
+            font-size: clamp(16px, 3vw, 22px);
+
+            margin: 12px 0 28px;
+        }
+
+        .warning {
+            color: #aaa;
+
+            font-size: 14px;
+
+            line-height: 1.6;
+
+            max-width: 560px;
+
+            margin: 0 auto 28px;
+        }
+
+        .download {
+            display: inline-block;
+
+            padding: 17px 34px;
+
+            border-radius: 10px;
+
+            background: #a40000;
+
+            color: white;
+
+            text-decoration: none;
+
+            font-size: 19px;
+
+            font-weight: 800;
+
+            letter-spacing: 1px;
+
+            box-shadow:
+                0 8px 25px rgba(120, 0, 0, 0.4);
+
+            transition:
+                transform 0.15s,
+                background 0.15s;
+        }
+
+        .download:hover {
+            background: #d00000;
+
+            transform: translateY(-2px);
+        }
+
+        .version {
+            margin-top: 18px;
+
+            color: #777;
+
+            font-size: 13px;
+        }
+
+        footer {
+            margin-top: 34px;
+
+            color: #555;
+
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="card">
+
+        <h1 class="logo">
+            H SCHOOL
+        </h1>
+
+        <p class="tagline">
+            HORROR SCHOOL 2D GAME
+        </p>
+
+        <p class="warning">
+            Enter the school... if you dare.<br>
+            Find the keys, avoid the Ghost Teacher, and escape.
+        </p>
+
+        <a
+            class="download"
+            href="https://github.com/starvivaproduction-creator/HSchool/releases/latest/download/HSchool.apk"
+        >
+            DOWNLOAD H SCHOOL APK
+        </a>
+
+        <div class="version">
+            Android • Version 1.0.0 • APK
+        </div>
+
+        <footer>
+            H SCHOOL — Horror School Game
+        </footer>
+
+    </main>
+
+</body>
+</html>
